@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Number = () => {
+const Number = (props) => {
+    
     return (
         <>
-            0
+            {props.count}
         </>
     )
 }
