@@ -13,7 +13,7 @@ const Card = () => {
             </div>
             <div className="card-bottom">
                 <Button handleChange={ () => setCount(count+1) } symbol="+" color="green" />
-                <Button handleChange={ () => setCount(0) } symbol="R" color="yellow"/>
+                <Button handleChange={ () => setCount(0) } symbol="0" color="yellow"/>
                 <Button handleChange={ () => setCount(count-1) } symbol="-" color="red"/>
             </div>
         </div>

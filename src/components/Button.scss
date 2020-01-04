@@ -1,17 +1,23 @@
 .button{
-    height: 50px;
+    height: 100px;
     width: 100px;
     background-color: chocolate;
     font-size: 30px;
     color: white;
     justify-items: center;
-    font-weight: 600;
+    font-weight: 900;
+    border: none;
+
+    &:hover{
+        cursor: pointer;
+    }
 
     &.green{
         background-color: #28a745;
     }
     &.yellow{
         background-color: #ffc107;
+        color: grey;
     }
     &.red{
         background-color: #dc3545;
